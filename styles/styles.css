@@ -8,8 +8,10 @@ body {
 .main {
     display: flex;
     flex-direction: row-reverse;
+    align-items: flex-start;
     width: auto;
-    margin: 0 auto;
+
+
     
 }
 
