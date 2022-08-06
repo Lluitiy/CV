@@ -1,0 +1,16 @@
+.header {
+    padding: 20px 0px;
+}
+
+.contacts {
+    color: #f68711;
+
+    &__con {
+        margin-bottom: 3;
+    }
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: #20fe20;
+}
