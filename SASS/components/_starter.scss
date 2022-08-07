@@ -1,3 +1,33 @@
 .starter {
-    background-color: green;
+  position: relative;
+
+  height: 100vh;
+  background-image: linear-gradient(
+    0deg,
+    rgb(47, 43, 43) 11.2%,
+    rgba(36, 163, 190, 1) 91.1%
+  );
+  &__wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    max-width: 320px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-family: $secondary-font;
+    font-size: 24px;
+  }
+
+  &__link--en {
+    color: black;
+  }
+
+  &__link--de {
+  }
 }
